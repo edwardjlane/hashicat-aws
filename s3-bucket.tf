@@ -4,9 +4,6 @@ module "s3_bucket" {
   bucket = "my-s3-bucket"
   bucket_prefix = "edwardlane"
   acl    = "private"
-
-  versioning = {
-    enabled = true
-  }
-
+  version = "2.2.0"
+  
 }
